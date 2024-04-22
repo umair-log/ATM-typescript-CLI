@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 let myBalance = Math.floor(Math.random() * 30000);
-let mypin = 1234;
+let mypin = 123;
 console.log(chalk.blue('Welcome to ATM machine...'));
 console.log(chalk.green(`Your current account balance is ${myBalance}`));
 let remainingBalance;
